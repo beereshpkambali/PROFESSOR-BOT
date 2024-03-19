@@ -2,8 +2,8 @@
     "name": "PROFESSOR-BOT",
     "description": "The Telegram Autofilter Bot",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
-    "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "keywords": ["Telegram", "auto-filter", "Mr Abnormal"],
+    "repository": "https://github.com/beereshpkambali/PROFESSOR-BOT",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -57,7 +57,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": "Mr Abnormal movies ",
             "required": false
         },
         "DATABASE_URL": {
@@ -66,7 +66,7 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "Cluster0",
+            "value": " ",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -76,7 +76,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "About_Mr_Abnormal",
             "required": false
         },
         "IMDB": {
