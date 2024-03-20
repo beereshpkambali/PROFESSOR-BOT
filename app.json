@@ -16,18 +16,22 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "18184906",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "a8b7f505268fe990dbbaf7b367d01748",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "required": false
+            "value": "-1001911819983",
+            "required": true
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "5457778583 2080705488 1383764994",
             "required": true
         },
         "SHORT_API": {
@@ -40,14 +44,17 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/Mr-Abnormal-05-27",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001174058442",
             "required": true                              
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "-1001911819983",
             "required": false
         },           
         "MAX_RIST_BTNS": {
@@ -81,7 +88,7 @@
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
-            "value": "True",
+            "value": "false",
             "required": false     
         },
         "PM_IMDB": {
@@ -121,7 +128,7 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "",
+            "value": "https://telegra.ph/Mr-Abnormal-05-27",
             "required": false
         },
         "WELCOM_TEXT": {
